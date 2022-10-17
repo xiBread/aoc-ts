@@ -1,0 +1,15 @@
+{
+	"useTabs": true,
+	"printWidth": 100,
+	"overrides": [
+		{
+			"files": [
+				"*.test.ts"
+			],
+			"options": {
+				"useTabs": true,
+				"printWidth": 120
+			}
+		}
+	]
+}

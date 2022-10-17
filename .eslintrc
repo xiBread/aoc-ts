@@ -1,0 +1,53 @@
+{
+	"root": true,
+	"env": {
+		"node": true,
+		"es2020": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"project": "./tsconfig.json"
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"rules": {
+		"no-constant-condition": [
+			1,
+			{
+				"checkLoops": false
+			}
+		],
+		"no-unused-labels": 0,
+		"@typescript-eslint/ban-ts-comment": 0,
+		"@typescript-eslint/consistent-type-imports": 2,
+		"@typescript-eslint/explicit-function-return-type": 0,
+		"@typescript-eslint/explicit-module-boundary-types": 0,
+		"@typescript-eslint/no-explicit-any": 0,
+		"@typescript-eslint/no-non-null-assertion": 0,
+		"@typescript-eslint/no-unnecessary-condition": [
+			1,
+			{
+				"allowConstantLoopConditions": true
+			}
+		],
+		"@typescript-eslint/no-unused-vars": 0,
+		"@typescript-eslint/prefer-as-const": 2,
+		"@typescript-eslint/prefer-for-of": 2,
+		"@typescript-eslint/prefer-nullish-coalescing": [
+			2,
+			{
+				"ignoreConditionalTests": false,
+				"ignoreMixedLogicalExpressions": false
+			}
+		],
+		"@typescript-eslint/prefer-optional-chain": 2,
+		"@typescript-eslint/type-annotation-spacing": 2
+	}
+}

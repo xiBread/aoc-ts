@@ -1,0 +1,30 @@
+// import * as $2017 from "../src/2017";
+
+describe("2017", () => {
+	test("foo", () => expect(1 + 1).toEqual(2));
+	// test("Day 01", () => expect($2017.day01()).toEqual([1029, 1220]));
+	// test("Day 02", () => expect($2017.day02()).toEqual([47_136, 250]));
+	// test("Day 03", () => expect($2017.day03()).toEqual([552, 330_785]));
+	// test("Day 04", () => expect($2017.day04()).toEqual([337, 231]));
+	// test("Day 05", () => expect($2017.day05()).toEqual([364_539, 27_477_714]));
+	// test("Day 06", () => expect($2017.day06()).toEqual([4074, 2793]));
+	// test.skip("Day 07", () => expect($2017.day07()).toEqual(["rqwgj", 333]));
+	// test.skip("Day 08", () => expect($2017.day08()).toEqual([4416, 5199]));
+	// test("Day 09", () => expect($2017.day09()).toEqual([14_190, 7053]));
+	// test.skip("Day 10", () => expect($2017.day10()).toEqual([62_238, "2b0c9cc0449507a0db3babd57ad9e8d8"]));
+	// test("Day 11", () => expect($2017.day11()).toEqual([796, 1585]));
+	// test("Day 12", () => expect($2017.day12()).toEqual([239, 215]));
+	// test("Day 13", () => expect($2017.day13()).toEqual([1904, 3_833_504]));
+	// test.skip("Day 14", () => expect($2017.day14()).toEqual([8106, 1164]));
+	// test.skip("Day 15", () => expect($2017.day15()).toEqual([577, 316]));
+	// test.skip("Day 16", () => expect($2017.day16()).toEqual(["hmefajngplkidocb", "fbidepghmjklcnoa"]));
+	// test("Day 17", () => expect($2017.day17()).toEqual([180, 13_326_437]));
+	// test.skip("Day 18", () => expect($2017.day18()).toEqual([3423, 7493]));
+	// test.skip("Day 19", () => expect($2017.day19()).toEqual(["VTWBPYAQFU", 17_358]));
+	// test.skip("Day 20", () => expect($2017.day20()).toEqual([144, 477]));
+	// test.skip("Day 21", () => expect($2017.day21()).toEqual([160, 2_271_537]));
+	// test.skip("Day 22", () => expect($2017.day22()).toEqual([5565, 2_511_978]));
+	// test.skip("Day 23", () => expect($2017.day23()).toEqual([3025, 915]));
+	// test.skip("Day 24", () => expect($2017.day24()).toEqual([1695, 1673]));
+	// test("Day 25", () => expect($2017.day25()).toEqual(2474));
+});

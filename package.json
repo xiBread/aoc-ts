@@ -1,0 +1,27 @@
+{
+	"name": "aoc-ts",
+	"version": "7.25.0",
+	"private": true,
+	"scripts": {
+		"build": "rimraf dist && tsc -b",
+		"lint": "eslint src/** --ext .ts",
+		"test": "vitest"
+	},
+	"author": "Oscar Lee-Vermeren <oscar.leevermeren@gmail.com>",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"yaml": "^2.1.3"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.186",
+		"@types/node": "^18.11.0",
+		"@typescript-eslint/eslint-plugin": "^5.40.0",
+		"@typescript-eslint/parser": "^5.40.0",
+		"eslint": "^8.25.0",
+		"eslint-config-prettier": "^8.5.0",
+		"tslib": "^2.4.0",
+		"typescript": "^4.8.4",
+		"vitest": "^0.24.3"
+	}
+}

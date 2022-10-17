@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"strict": true,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"target": "ESNext",
+		"lib": [
+			"ESNext"
+		],
+		"types": [
+			"vitest/globals"
+		]
+	},
+	"include": [
+		"**/*.ts"
+	]
+}
